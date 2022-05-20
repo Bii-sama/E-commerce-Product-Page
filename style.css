@@ -1,0 +1,190 @@
+body{
+    font-family:"Kumbh Sans"
+}
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 11px;
+}
+
+nav ul li a{
+    color: hsl(220, 14%, 75%);
+    text-decoration: none;
+}
+
+.sideHeader{
+    width: 150px;
+    height: auto;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.cart{
+    margin-right: 70px;
+}
+
+#figure{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    left:25px;
+    top: -55px;
+    text-align: center;
+}
+
+.figure{
+    
+    background-color: hsl(26, 100%, 55%);
+    font-size: 12px;
+    color: #fff;
+    
+}
+
+
+hr{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: hsl(223, 64%, 98%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.firstHalf{
+    width: 650px;
+    height: auto;
+}
+
+
+#picture{
+    width: 400px;
+    height: 300px;
+}
+.little{
+    padding-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.little1{
+    margin-left: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.image1{
+    background-image: url("image1.jpg");
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.image2{
+    background-image: url("image2.jpg");
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.image3{
+    background-image: url("image3.jpg");
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.image4{
+    background-image: url("image4.jpg");
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.secondHalf{
+    width: 500px;
+    height: auto;
+}
+
+.secondHalf h3{
+    color: hsl(26, 100%, 55%);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.secondHalf h4{
+    font-weight:900;
+}
+
+.secondHalf span{
+    margin-left: 25px;
+    font-size: 10px;
+    color:hsl(26, 100%, 55%);
+    background-color: #e6e6e6;
+    position: relative;
+    top: -5px;
+}
+
+.right-price{
+    position: relative;
+    top: -25px;
+    text-decoration: line-through;
+    color: hsl(220, 14%, 75%);
+}
+
+.purchase{
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.minus{
+    width:30px;
+    height: 30px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+.amount{
+    font-weight: bolder;
+    position: relative;
+    top: -10px;
+    color: black;
+}
+
+.plus{
+    width:30px;
+    height: 30px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.add{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 15px;
+    background-color: hsl(26, 100%, 55%);
+    color:#fff;
+    border-style: none;
+    border-radius: 4px;
+    }
+
+.fas.fa-shopping-cart{
+    font-family: "Kumbh Sans";
+    font-size: 12px;
+}
